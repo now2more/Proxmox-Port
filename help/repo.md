@@ -25,6 +25,9 @@ pve7
 
 pve8
 
+echo "deb https://global.mirrors.apqa.cn/proxmox/debian/pve bookworm port">/etc/apt/sources.list.d/pveport.list
+
+
    ```bash
    deb https://global.mirrors.apqa.cn/proxmox/debian/pve bookworm port
    ```
